@@ -1,0 +1,19 @@
+{
+  "name": "protowiz-task-management",
+  "version": "2.0.0",
+  "description": "iBots project management: projects, tasks, dependencies, failures, testing, delivery, users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db.js --reset",
+    "test": "node test.js",
+    "test:turso": "node test.js --turso",
+    "smoke": "node smoke-test.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0"
+  }
+}

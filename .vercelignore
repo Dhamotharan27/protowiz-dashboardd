@@ -1,0 +1,10 @@
+# keep local data, screenshots and Windows helpers out of the deployment
+protowiz.db
+protowiz.db-shm
+protowiz.db-wal
+*.db
+.env*
+shots/
+*.bat
+start.sh
+node_modules/

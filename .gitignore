@@ -1,0 +1,6 @@
+node_modules/
+.env
+.vercel/
+protowiz.db
+protowiz.db-shm
+protowiz.db-wal
